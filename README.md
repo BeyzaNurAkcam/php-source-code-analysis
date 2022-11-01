@@ -17,7 +17,9 @@ shell_exec
 
 ## XSS
 innerHTML
+
 echo
+
 var_dump
 
 
@@ -35,7 +37,9 @@ readfile
 
 ## SQL Injection(Because parametric query is not used)
 mysql_query
+
 ->exec
+
 ->query
 
 ## Deserilization
@@ -55,9 +59,12 @@ iframe
 
 ## SSTI
 Twig_Autoloader
+
 Twig_Loader_String
+
 Twig_Environment
 
 ## Clickjacking
 iframe
+
 Not using X-Frame-Options or Content-Security-Policy
